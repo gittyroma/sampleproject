@@ -1,0 +1,102 @@
+body{
+  margin:0; font-size: 15px; font-family: cursive;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul{
+  margin:0; padding:0;
+}
+li{
+  list-style: none;
+}
+
+header{
+  background: green; text-align: center; color:white; padding:3%;
+}
+.bio{
+  background-color: white;
+  height:10px;
+  text-align:center;
+  text-decoration: none;
+  color:black;
+  text-align: center;
+  font-size:8px;
+}
+
+.menubar{
+  background: green;
+  }
+.menubar ul{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin:0; margin-right: 5%; padding:1%;
+
+}
+
+
+
+section{
+  background:white;
+  display:flex;
+  padding: 1% 0;
+  justify-content: space-around;
+}
+
+.education{
+  background: green;
+  width:30%;
+  padding:1%;
+}
+
+/*.education p{
+  magrin:0;
+  padding:1%;
+} */
+
+.experience{
+  background: green;
+  width:30%;
+  padding:1%;
+}
+
+.contact{
+  background: green;
+  width:30%;
+  padding:1%;
+}
+
+footer{
+  background-color: green;
+  display:flex;
+  padding:2%;
+  justify-content: space-between;
+}
+
+.Copyright{
+  background:white;
+  display:flex;
+  padding: 1% 0;
+  justify-content: space-around;
+  width:48%;
+}
+
+.developedby{
+  background:white;
+  display:flex;
+  padding: 1% 0;
+  justify-content: space-around;
+  width:48%;
+}
+@media all and (max-width: 600px){
+  .menubar ul{
+    flex-flow:column nowrap;
+  }
+
+    section{
+    flex-flow:column nowrap;
+  }
+}
+
+/*.footer ul li{
+  background-color: lightgreen;
+}*/
